@@ -117,8 +117,9 @@ li {
   transition-duration: 0.6s;
 }
 .porten {
-  background: url(../img/main.png) no-repeat top center;
+  background: url(../img/main.png) no-repeat center center fixed;
   background-size: cover;
+  width: 100%;
 }
 .porten__inner {
   text-align: center;
@@ -134,7 +135,7 @@ li {
   padding-bottom: 150px;
 }
 .collections__titlebot {
-  font-family: 'Playfair Displayserif', serif;
+  font-family: 'Playfair Display', serif;
   font-weight: 300;
   font-size: 36px;
   line-height: 42px;
@@ -150,7 +151,7 @@ li {
   transition-duration: 0.5s;
 }
 .collections__card .collections__clockdesc {
-  font-family: 'Playfair Displayserif', serif;
+  font-family: 'Playfair Display', serif;
   text-align: left;
   margin-top: 25px;
 }
@@ -178,7 +179,7 @@ li {
   margin-bottom: 36px;
   font-size: 36px;
   line-height: 42px;
-  font-family: 'Playfair Displayserif', serif;
+  font-family: 'Playfair Display', serif;
 }
 .collections .collections__wrapper .collections__top .collections__item1 .collections__dash {
   margin-bottom: 50px;
@@ -206,7 +207,7 @@ li {
 .collections .collections__wrapper .collections__top .collections__item2 .collections__item2d .collections__item2desc .collections__title2 {
   font-size: 36px;
   line-height: 42px;
-  font-family: 'Playfair Displayserif', serif;
+  font-family: 'Playfair Display', serif;
   font-weight: 600;
 }
 .collections .collections__wrapper .collections__top .collections__item2 .collections__item2d .collections__dashit2 {
@@ -342,7 +343,7 @@ li {
   width: 190px;
   padding: 15px 15px;
   font-size: 14px;
-  color: white;
+  color: #969696;
 }
 .footer .footer__inner .footer__spam .footer__form .footer__submit {
   font-size: 14px;
